@@ -31,16 +31,10 @@
 #define LIBSMARTCTL_H_CVSID "$Id$\n"
 
 #include <map>
+#include <string>
+#include <vector>
 
-#include "atacmds.h"
-#include "ataprint.h"
-#include "config.h"
-#include "dev_interface.h"
-#include "knowndrives.h"
-#include "scsicmds.h"
-#include "scsiprint.h"
 #include "smartctl_errs.h"
-#include "utility.h"
 
 namespace libsmartctl {
 
